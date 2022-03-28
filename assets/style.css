@@ -1,6 +1,13 @@
 /* * *  Correct the line height in all browsers.
 *  Prevent adjustments of font size after orientation changes in iOS.
 * */
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 html {
   line-height: 1.15;
   /* 1 */
